@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage for demonstrating semantic HTML and CSS.">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: rgb(157, 21, 21);
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+        }
+        
+        nav ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .nav-left {
+            margin-right: auto;
+        }
+        
+        .nav-right {
+            margin-left: auto;
+        }
+        
+        main {
+            padding: 1rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Webpage</h1>
+        <nav>
+            <ul>
+                <div class="nav-left">
+                    <h4><a href="#home">Home</a></h4>
+                </div>
+                <div class="nav-right">
+                    <h4 style="margin-left:300%;"><a href="#about">About</a></h4>
+                  
+                </div>
+                <div class="nav-right">
+                    <h4><a href="#contact">Contact</a></h4>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main style="background-color:rgb(200, 250, 250) ;">
+        <section id="home">
+            <h2>Home</h2>
+            <p>My name is Ankit Kumar, a web developer intern at Main FLow Services and Technologies.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a Basic Webpage using HTML and CSS.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>mob: 6399340586.</p>
+            <p>Email: ankitkumar81919895@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
